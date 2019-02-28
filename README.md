@@ -30,7 +30,8 @@ Your custom properties should now be recognized when editing application.propert
 ### Springboot main class
 Take care of gradle.build mainClassName, because when a function is not belonging to the class, the mainClassName is called whateverKt with the 'Kt' suffix and the end.
 http://engineering.pivotal.io/post/spring-boot-application-with-kotlin/
-for the
+
+for 
 ```properties
  mainClassName = 'com.amm.concept.blog.BlogApplication'
 ```
@@ -60,4 +61,5 @@ fun main(args: Array<String>) {
     runApplication<BlogApplication>(*args)
 }
 ```
+
 https://medium.com/@Ankitthakur/spring-boot-with-kotlin-gradle-and-docker-d4e13b60a3d9
