@@ -15,8 +15,8 @@ apply plugin: 'kotlin-jpa'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'application'
 
-mainClassName = 'com.amm.concept.blog.BlogApplication.kt'
-group = 'com.amm.concept'
+mainClassName = 'com.amm.concept.blog.BlogApplicationKt'
+group = 'com.amm.concept.blog'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
