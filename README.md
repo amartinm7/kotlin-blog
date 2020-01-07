@@ -5,6 +5,11 @@ taken from spring guide: [Building web applications with Spring Boot and Kotlin]
 
 Springboot Rest API with Kotlin and JPA
 
+### Install gradle wrapper
+```bash
+gradle wrapper
+```
+
 Run the app
 ```bash
 ./gradlew clean build bootRun
