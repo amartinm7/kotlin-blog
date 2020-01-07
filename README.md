@@ -9,6 +9,10 @@ Springboot Rest API with Kotlin and JPA
 ```bash
 gradle wrapper
 ```
+create folders, gradle config files and so on... choose the 8 and 1 options
+```bash
+./gradlew init
+```
 
 Run the app
 ```bash
